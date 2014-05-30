@@ -1,0 +1,26 @@
+{
+  "name": "dyna-fetch",
+  "version": "0.0.1",
+  "description": "Fetch CommonJS modules asyncly. Use with dyna-pack.",
+  "main": "index.js",
+  "browser": {
+    "./index.js": "./browser.js"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "~0.3.1"
+  },
+  "scripts": {
+    "test": "mocha -C tests/"
+  },
+  "keywords": [
+    "module",
+    "async",
+    "commonjs"
+  ],
+  "author": "Carl A. Bauer",
+  "license": "MIT"
+}
