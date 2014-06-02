@@ -16,6 +16,10 @@
   "scripts": {
     "test": "mocha -C tests/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bauerca/dynafetch.git"
+  },
   "keywords": [
     "module",
     "async",
