@@ -1,7 +1,7 @@
 {
-  "name": "dyna-fetch",
+  "name": "dynafetch",
   "version": "0.0.1",
-  "description": "Fetch CommonJS modules asyncly. Use with dyna-pack.",
+  "description": "Fetch CommonJS modules asyncly. Use with dynapack.",
   "main": "index.js",
   "browser": {
     "./index.js": "./browser.js"
