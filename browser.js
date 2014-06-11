@@ -4,6 +4,7 @@
  *  module as first argument.
  */
 module.exports = function(require) {
+  if (arguments.length > 1) throw new Error('dynafetch needs require');
   return function(deps, callback) {
     var modules = [],
         fetched = 0,
